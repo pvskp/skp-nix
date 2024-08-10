@@ -4,14 +4,20 @@
 pkgs.buildEnv {
   name = "personal";
   paths = [
-    pkgs.lazygit
+    # DevOps tools
+    pkgs.tenv
+    pkgs.kubectl
     pkgs.k9s
+    pkgs.termshark
+    # General programming tools
+    pkgs.lazygit
     pkgs.age
+    pkgs.ripgrep
+    pkgs.netcat
+    pkgs.fzf
+    # Others
     pkgs.ranger
     pkgs.flameshot
-    pkgs.termshark
-    pkgs.ripgrep
-    pkgs.fzf
     pkgs.appeditor
   ];
 }
