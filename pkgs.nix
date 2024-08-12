@@ -18,6 +18,7 @@ pkgs.buildEnv {
     pkgs.fzf
     # Others
     pkgs.autorandr
+    pkgs.calcurse
     pkgs.ranger
     pkgs.flameshot
     pkgs.appeditor
