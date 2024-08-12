@@ -9,6 +9,7 @@ pkgs.buildEnv {
     pkgs.kubectl
     pkgs.k9s
     pkgs.termshark
+    pkgs.ansible
     # General programming tools
     pkgs.lazygit
     pkgs.age
@@ -16,6 +17,7 @@ pkgs.buildEnv {
     pkgs.netcat
     pkgs.fzf
     # Others
+    pkgs.autorandr
     pkgs.ranger
     pkgs.flameshot
     pkgs.appeditor
